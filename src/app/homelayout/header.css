@@ -11,7 +11,7 @@ body{
     background-color: #D2691E;
     display: flex;
     flex-direction: row;
-    padding: 2rem;
+    padding: 1rem;
 }
 .nav-cont{
     display: flex;
@@ -20,6 +20,17 @@ body{
     margin-left: 1rem;
     margin-left: 59rem;
 }
+@media (max-width:1318px) {
+    .header{
+        background-color: red;
+
+    }
+    .nav-cont{
+        margin-left: auto;
+        margin-right: 1rem;
+    }
+}
+
 .nav-1,.nav-3,.nav-2{
     text-decoration: none;
     font-size: larger;
@@ -42,5 +53,9 @@ a:active{
     color: #f5f5f5;
 }
 .header-l{
+    color: #582b0a;
+}
+.header-l:hover{
     color: #f5f5f5;
+    text-decoration: none;
 }
