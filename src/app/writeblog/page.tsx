@@ -46,7 +46,7 @@ function page() {
   <option value="thriller">Thriller</option>
 </select>
         </div>
-        <textarea name="blog"  className='blog-input' placeholder='Your Blog Here!' 
+        <textarea name="blog"  className='blog-input fade-in' placeholder='Your Blog Here!' 
             value={blog} onChange={e => setBlog(e.target.value)}
         />
         {title.trim().length > 0 && blog.trim().length > 0 && <button onClick={submitBlog} className='post-but'> Post!</button>}
