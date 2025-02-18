@@ -24,7 +24,6 @@ function page() {
         }
     }
 
-
   return (
     <div className={title.trim().length > 0 && blog.trim().length > 0 ? 
         "writeblog-but" : "writeblog"
